@@ -26,7 +26,7 @@ import { HeaderComponent } from './partials/header/header.component';
    imports: [
       BrowserModule,
       AppRoutingModule,
-      FontAwesomeModule
+      FontAwesomeModule,
    ],
    providers: [],
    bootstrap: [

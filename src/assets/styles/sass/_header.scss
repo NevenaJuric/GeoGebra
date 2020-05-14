@@ -18,11 +18,11 @@ header{
     height: inherit;
 }
 
-.layer{
-    width: 100%;
-    height: 100%;
-}
-
 #layer10{
     padding-top: 150px;
+}
+
+.particles-js-canvas-el{
+  position: relative;
+  bottom: 300px !important;
 }
