@@ -9,6 +9,7 @@ import { ActivitiesComponent } from './activities/activities.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectsComponent } from './partials/projects/projects.component';
+import { MaterialHomeComponent } from './partials/material-home/material-home.component';
 
 @NgModule({
    declarations: [
@@ -17,6 +18,7 @@ import { ProjectsComponent } from './partials/projects/projects.component';
       ActivitiesComponent,
       FooterComponent,
       ProjectsComponent,
+      MaterialHomeComponent,
       HomeComponent
    ],
    imports: [
