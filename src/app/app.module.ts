@@ -8,6 +8,7 @@ import { NavigationComponent } from './partials/navigation/navigation.component'
 import { ActivitiesComponent } from './activities/activities.component';
 import { FooterComponent } from './partials/footer/footer.component';
 import { HomeComponent } from './home/home.component';
+import { ProjectsComponent } from './partials/projects/projects.component';
 
 @NgModule({
    declarations: [
@@ -15,6 +16,7 @@ import { HomeComponent } from './home/home.component';
       NavigationComponent,
       ActivitiesComponent,
       FooterComponent,
+      ProjectsComponent,
       HomeComponent
    ],
    imports: [
