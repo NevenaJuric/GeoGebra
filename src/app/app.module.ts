@@ -4,17 +4,21 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavigationComponent } from './partials/navigation/navigation.component';
+import { ActivitiesComponent } from './activities/activities.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavigationComponent,
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent,
+      NavigationComponent,
+      ActivitiesComponent
+   ],
+   imports: [
+      BrowserModule,
+      AppRoutingModule
+   ],
+   providers: [],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }
