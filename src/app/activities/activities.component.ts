@@ -8,9 +8,7 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 })
 export class ActivitiesComponent implements OnInit {
 
-
   constructor() {
-
   }
 
   ngOnInit() {
