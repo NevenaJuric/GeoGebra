@@ -12,6 +12,7 @@ import { ProjectsComponent } from './partials/projects/projects.component';
 import { MaterialHomeComponent } from './partials/material-home/material-home.component';
 import { HeaderComponent } from './partials/header/header.component';
 import { SmallHeaderComponent } from './partials/small-header/small-header.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
    declarations: [
@@ -29,6 +30,7 @@ import { SmallHeaderComponent } from './partials/small-header/small-header.compo
       BrowserModule,
       AppRoutingModule,
       FontAwesomeModule,
+      NgbModule,
    ],
    providers: [],
    bootstrap: [
