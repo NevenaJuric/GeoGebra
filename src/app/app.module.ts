@@ -17,6 +17,7 @@ import { MaterialsPartialComponent } from './partials/materials-partial/material
 import { MaterialsComponent } from './materials/materials.component';
 import { MembersComponent } from './members/members.component';
 import { LaborsComponent } from './labors/labors.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
    declarations: [
@@ -32,7 +33,8 @@ import { LaborsComponent } from './labors/labors.component';
       HomeComponent,
       MaterialsComponent,
       MembersComponent,
-      LaborsComponent
+      LaborsComponent,
+      ContactComponent
    ],
    imports: [
       BrowserModule,
