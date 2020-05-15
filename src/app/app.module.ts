@@ -16,6 +16,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialsPartialComponent } from './partials/materials-partial/materials-partial.component';
 import { MaterialsComponent } from './materials/materials.component';
 import { MembersComponent } from './members/members.component';
+import { LaborsComponent } from './labors/labors.component';
 
 @NgModule({
    declarations: [
@@ -30,7 +31,8 @@ import { MembersComponent } from './members/members.component';
       MaterialsPartialComponent,
       HomeComponent,
       MaterialsComponent,
-      MembersComponent
+      MembersComponent,
+      LaborsComponent
    ],
    imports: [
       BrowserModule,
