@@ -15,6 +15,13 @@ export class HomeComponent implements OnInit {
   faGlobeAmericas = faGlobeAmericas;
   faNewspaper = faNewspaper;
 
+  url: string;
+
+  onClickNews(){
+    this.url = 'http://www.geogebra.matf.bg.ac.rs/uputstvoGGB.pdf';
+    window.open(this.url);
+  }
+
   constructor() { }
 
   ngOnInit() {
