@@ -14,6 +14,7 @@ import { HeaderComponent } from './partials/header/header.component';
 import { SmallHeaderComponent } from './partials/small-header/small-header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MaterialsPartialComponent } from './partials/materials-partial/materials-partial.component';
+import { MaterialsComponent } from './materials/materials.component';
 
 @NgModule({
    declarations: [
@@ -27,6 +28,7 @@ import { MaterialsPartialComponent } from './partials/materials-partial/material
       MaterialHomeComponent,
       MaterialsPartialComponent,
       HomeComponent,
+      MaterialsComponent
    ],
    imports: [
       BrowserModule,
