@@ -13,6 +13,7 @@ import { MaterialHomeComponent } from './partials/material-home/material-home.co
 import { HeaderComponent } from './partials/header/header.component';
 import { SmallHeaderComponent } from './partials/small-header/small-header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MaterialsPartialComponent } from './partials/materials-partial/materials-partial.component';
 
 @NgModule({
    declarations: [
@@ -24,6 +25,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
       FooterComponent,
       ProjectsComponent,
       MaterialHomeComponent,
+      MaterialsPartialComponent,
       HomeComponent,
    ],
    imports: [
