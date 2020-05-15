@@ -13,6 +13,7 @@ import { MaterialHomeComponent } from './partials/material-home/material-home.co
 import { HeaderComponent } from './partials/header/header.component';
 import { SmallHeaderComponent } from './partials/small-header/small-header.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MaterialsComponent } from './materials/materials.component';
 
 @NgModule({
    declarations: [
@@ -24,13 +25,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
       FooterComponent,
       ProjectsComponent,
       MaterialHomeComponent,
-      HomeComponent
+      HomeComponent,
+      MaterialsComponent
    ],
    imports: [
       BrowserModule,
       AppRoutingModule,
       FontAwesomeModule,
-      NgbModule,
+      NgbModule
    ],
    providers: [],
    bootstrap: [
