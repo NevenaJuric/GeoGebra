@@ -1,11 +1,16 @@
-.navbar{
+.navbar {
     height: 60px;
 }
 
-.nav-item{
+.nav-item {
     margin: 0 10px 0 10px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     border: none;
+}
+
+.navbar-trans {
+    box-shadow: 0 0 20px $light-gray-color;
+    background-color: $light-color;
 }
