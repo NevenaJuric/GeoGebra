@@ -1,4 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
+import { DOCUMENT } from '@angular/common';
 
 
 @Component({
@@ -8,14 +9,18 @@ import { Component, OnInit, Inject } from '@angular/core';
 export class NavigationComponent implements OnInit {
 
   scroll = false;
+  el: any;
+  width: boolean;
 
-  constructor() { }
+  constructor(@Inject(DOCUMENT) document) {}
 
   ngOnInit() {
     window.addEventListener('scroll', this.scrolling, true);
+    this.el = document.getElementById('btn-nav');
+    console.log(this.el);
   }
 
-  scrolling = (s) => {
+  scrolling(s) {
     const sc = s.target.scrollingElement.scrollTop;
     if (sc >= 50) {
       this.scroll = true;
@@ -23,6 +28,5 @@ export class NavigationComponent implements OnInit {
     else {
       this.scroll = false;
     }
-
   }
 }
