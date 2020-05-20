@@ -1,104 +1,103 @@
 <div>
-  <app-header></app-header>
+    <app-header></app-header>
 </div>
 <div class="container-fluid">
-  <div class="row my-5">
-    <div class="col-lg-8 offset-lg-2">
-      <div class="text-center font-md">
-        <h1 class="display-4 font-xl line-md">
-          Podržavamo primenu i proučavamo uticaj primene interaktivnih nastavnih sadražaja izrađenih primenom paketa
-          GeoGebra u procesu
-          nastave matematike.
-        </h1>
-      </div>
+    <div class="row my-5">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="text-center font-md">
+                <h1 class="display-4 font-xl line-md">
+                    Podržavamo primenu i proučavamo uticaj primene interaktivnih nastavnih sadražaja izrađenih primenom paketa GeoGebra u procesu nastave matematike.
+                </h1>
+            </div>
+        </div>
     </div>
-  </div>
-  <div class="row my-5">
-    <div class="col-lg-8 offset-lg-2">
-      <div class="row row-centered my-5">
-        <div class="col-lg-4 col-centered">
-          <div class="col-lg-12 text-center">
-            <h1 class="display-4">
-              <fa-icon [icon]="faBook" aria-hidden="true"></fa-icon>
-            </h1>
-            <h1 class="display-4">Uputstvo</h1>
-          </div>
-          <div class="text-center font-md my-5">
-            <h1 class="display-4">
-              <fa-icon [icon]="faFilePdf" aria-hidden="true" id="manual" (click)='onClickNews()'></fa-icon>
-            </h1>
-            <h1 class="display-4 font-md line-md">
-              Zvanično GeoGebra uputstvo na Srpskom jeziku.
-            </h1>
-          </div>
-        </div>
-        <div class="col-lg-4 col-centered">
-          <div class="col-lg-12 text-center">
-            <h1 class="display-4">
-              <fa-icon [icon]="faGlobeAmericas" aria-hidden="true"></fa-icon>
-            </h1>
-            <h1 class="display-4">Linkovi</h1>
-          </div>
-          <div class="text-center font-md my-5">
-            <ul class="sample-list">
-              <li>
-                <a href="https://www.geogebra.org/download">GeoGebra</a>
-                <p class="lead font-md">Preuzimanje softvera GeoGebra.</p>
-              </li>
-              <li>
-                <a href="https://moodle.org/">Moodle</a>
-                <p class="lead font-md">Zvanični sajt programskog paketa Moodle.</p>
-              </li>
-              <li>
-                <a href="http://www.matf.bg.ac.rs/">Matematički fakultet</a>
-                <p class="lead font-md">Sajt Matematičkog fakulteta u Beogradu.</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-lg-4 col-centered">
-          <div class="col-lg-12 text-center">
-            <h1 class="display-4">
-              <fa-icon [icon]="faNewspaper" aria-hidden="true"></fa-icon>
-            </h1>
-            <h1 class="display-4">Novosti</h1>
-          </div>
-          <div class="text-center font-md my-5">
-            <ul class="sample-list">
-              <li>
-                <a href="http://ezbirka.math.rs/?action=news" class="news-link">Aktuelnosti vezane za Obrazovni
+    <div class="row my-5">
+        <div class="col-lg-8 offset-lg-2">
+            <div class="row row-centered my-5">
+                <div class="col-lg-4 col-centered">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="display-4">
+                            <fa-icon [icon]="faBook" aria-hidden="true"></fa-icon>
+                        </h1>
+                        <h1 class="display-4">Uputstvo</h1>
+                    </div>
+                    <div class="text-center font-md my-5">
+                        <h1 class="display-4">
+                            <fa-icon [icon]="faFilePdf" aria-hidden="true" id="manual" (click)='onClickNews()'></fa-icon>
+                        </h1>
+                        <h1 class="display-4 font-md line-md">
+                            Zvanično GeoGebra uputstvo na Srpskom jeziku.
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-centered">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="display-4">
+                            <fa-icon [icon]="faGlobeAmericas" aria-hidden="true"></fa-icon>
+                        </h1>
+                        <h1 class="display-4">Linkovi</h1>
+                    </div>
+                    <div class="text-center font-md my-5">
+                        <ul class="sample-list">
+                            <li>
+                                <a href="https://www.geogebra.org/download">GeoGebra</a>
+                                <p class="lead font-md">Preuzimanje softvera GeoGebra.</p>
+                            </li>
+                            <li>
+                                <a href="https://moodle.org/">Moodle</a>
+                                <p class="lead font-md">Zvanični sajt programskog paketa Moodle.</p>
+                            </li>
+                            <li>
+                                <a href="http://www.matf.bg.ac.rs/">Matematički fakultet</a>
+                                <p class="lead font-md">Sajt Matematičkog fakulteta u Beogradu.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-centered">
+                    <div class="col-lg-12 text-center">
+                        <h1 class="display-4">
+                            <fa-icon [icon]="faNewspaper" aria-hidden="true"></fa-icon>
+                        </h1>
+                        <h1 class="display-4">Novosti</h1>
+                    </div>
+                    <div class="text-center font-md my-5">
+                        <ul class="sample-list">
+                            <li>
+                                <a href="http://ezbirka.math.rs/?action=news" class="news-link">Aktuelnosti vezane za Obrazovni
                   softver</a>
-              </li>
-              <li>
-                <a href="#" class="news-link">Predavanje dr Žolta Lavice
+                            </li>
+                            <li>
+                                <a class="news-link" routerLink="news/news1">Predavanje dr Žolta Lavice
                   2014</a>
-              </li>
-              <li>
-                <a href="#" class="news-link">MathEdu Research Course in
+                            </li>
+                            <li>
+                                <a href="#" class="news-link">MathEdu Research Course in
                   Linz</a>
-              </li>
-              <li>
-                <a href="#" class="news-link">Predavanje dr Žolta Lavice
+                            </li>
+                            <li>
+                                <a href="#" class="news-link">Predavanje dr Žolta Lavice
                   2013</a>
-              </li>
-              <li>
-                <a href="#" class="news-link">IGGCW conference 2012
+                            </li>
+                            <li>
+                                <a href="#" class="news-link">IGGCW conference 2012
                   Miskolc</a>
-              </li>
-              <li>
-                <a href="#" class="news-link">CADGME conference 2012 Novi
+                            </li>
+                            <li>
+                                <a href="#" class="news-link">CADGME conference 2012 Novi
                   Sad</a>
-              </li>
-            </ul>
-          </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <div>
-    <app-projects></app-projects>
-  </div>
-  <div>
-    <app-material-home></app-material-home>
-  </div>
+    <router-outlet></router-outlet>
+    <div>
+        <app-projects></app-projects>
+    </div>
+    <div>
+        <app-material-home></app-material-home>
+    </div>
 </div>

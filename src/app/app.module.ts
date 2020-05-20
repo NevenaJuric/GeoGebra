@@ -18,6 +18,7 @@ import { MaterialsComponent } from './materials/materials.component';
 import { MembersComponent } from './members/members.component';
 import { LaborsComponent } from './labors/labors.component';
 import { ContactComponent } from './contact/contact.component';
+import { News1Component } from './news/news1/news1.component';
 
 @NgModule({
    declarations: [
@@ -29,6 +30,7 @@ import { ContactComponent } from './contact/contact.component';
       ActivitiesComponent,
       MembersComponent,
       ContactComponent,
+      News1Component,
       ProjectsComponent,
       MaterialHomeComponent,
       MaterialsPartialComponent,
