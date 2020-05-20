@@ -1,5 +1,4 @@
-import { Component, OnInit, Inject } from '@angular/core';
-import { DOCUMENT } from '@angular/common';
+import { Component, OnInit } from '@angular/core';
 
 
 @Component({
@@ -12,12 +11,10 @@ export class NavigationComponent implements OnInit {
   el: any;
   width: boolean;
 
-  constructor(@Inject(DOCUMENT) document) {}
+  constructor() {}
 
   ngOnInit() {
     window.addEventListener('scroll', this.scrolling, true);
-    this.el = document.getElementById('btn-nav');
-    console.log(this.el);
   }
 
   scrolling(s) {
