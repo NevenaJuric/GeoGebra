@@ -19,6 +19,7 @@ import { MembersComponent } from './members/members.component';
 import { LaborsComponent } from './labors/labors.component';
 import { ContactComponent } from './contact/contact.component';
 import { News1Component } from './news/news1/news1.component';
+import { News2Component } from './news/news2/news2.component';
 
 @NgModule({
    declarations: [
@@ -31,6 +32,7 @@ import { News1Component } from './news/news1/news1.component';
       MembersComponent,
       ContactComponent,
       News1Component,
+      News2Component,
       ProjectsComponent,
       MaterialHomeComponent,
       MaterialsPartialComponent,

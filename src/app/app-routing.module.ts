@@ -7,6 +7,7 @@ import { MembersComponent } from './members/members.component';
 import { LaborsComponent } from './labors/labors.component';
 import { ContactComponent } from './contact/contact.component';
 import { News1Component } from './news/news1/news1.component';
+import { News2Component } from './news/news2/news2.component';
 
 
 const routes: Routes = [
@@ -17,6 +18,7 @@ const routes: Routes = [
 { path: 'contact', component: ContactComponent },
 { path: 'labors', component: LaborsComponent },
 { path: 'news1', component: News1Component },
+{ path: 'news2', component: News2Component },
 { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
