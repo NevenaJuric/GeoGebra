@@ -10,18 +10,13 @@ import { News1Component } from './news/news1/news1.component';
 
 
 const routes: Routes = [
-  {
-    path: 'home',
-    children: [
-      { path: 'news/:news1', component: News1Component },
-    ],
-  component: HomeComponent
-  },
+{ path: 'home', component: HomeComponent },
 { path: 'activities', component: ActivitiesComponent },
 { path: 'members', component: MembersComponent },
 { path: 'materials', component: MaterialsComponent },
 { path: 'contact', component: ContactComponent },
 { path: 'labors', component: LaborsComponent },
+{ path: 'news1', component: News1Component },
 { path: '', redirectTo: '/home', pathMatch: 'full' },
 ];
 
