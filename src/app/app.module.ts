@@ -21,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
 import { News1Component } from './news/news1/news1.component';
 import { News2Component } from './news/news2/news2.component';
 import { News3Component } from './news/news3/news3.component';
+import { News4Component } from './news/news4/news4.component';
 import { News5Component } from './news/news5/news5.component';
 
 @NgModule({
@@ -36,6 +37,7 @@ import { News5Component } from './news/news5/news5.component';
       News1Component,
       News2Component,
       News3Component,
+      News4Component,
       News5Component,
       ProjectsComponent,
       MaterialHomeComponent,
