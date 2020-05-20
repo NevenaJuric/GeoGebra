@@ -8,8 +8,6 @@ import { Component, OnInit } from '@angular/core';
 export class NavigationComponent implements OnInit {
 
   scroll = false;
-  el: any;
-  width: boolean;
 
   constructor() {}
 
@@ -17,12 +15,12 @@ export class NavigationComponent implements OnInit {
     window.addEventListener('scroll', this.scrolling, true);
   }
 
-  scrolling(s) {
+  scrolling = (s) => {
     const sc = s.target.scrollingElement.scrollTop;
-    if (sc >= 50) {
+    if (sc >= 50){
       this.scroll = true;
     }
-    else {
+    else{
       this.scroll = false;
     }
   }
