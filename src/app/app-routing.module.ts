@@ -11,6 +11,7 @@ import { News2Component } from './news/news2/news2.component';
 import { News5Component } from './news/news5/news5.component';
 import { News3Component } from './news/news3/news3.component';
 import { News4Component } from './news/news4/news4.component';
+import { CoursesComponent } from './courses/courses.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
 { path: 'materials', component: MaterialsComponent },
 { path: 'contact', component: ContactComponent },
 { path: 'labors', component: LaborsComponent },
+{ path: 'course', component: CoursesComponent },
 { path: 'news1', component: News1Component },
 { path: 'news2', component: News2Component },
 { path: 'news3', component: News3Component },
