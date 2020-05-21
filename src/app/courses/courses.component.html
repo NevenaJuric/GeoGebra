@@ -1,17 +1,25 @@
 <div class="container-fluid courses-wrapper p-0">
   <div class="courses-menu" id="courses-menu">
+    <div *ngFor="let course of courses">
+      <h3 class='course-title'>{{course.title}}</h3>
+      <div id='{{course.id}}' *ngFor="let lesson of course.lessons">
+        <button onclick='onLessonClick(this)' class='lesson-title'>
+          {{lesson.title}}
+        </button>
+      </div>
+    </div>
 
   </div>
   <div class="courses-content">
-      <div id="course-text" class="text-justify">
-          <div class="col-lg-12 text-center">
-              <h1 class="display-4">Kursevi</h1>
-          </div>
-          <div class="col-8 offset-2 justify-content-center">
-              <div class="justify-content-center font-md my-3" id="courses-home">
-              </div>
-          </div>
+    <div id="course-text" class="text-justify">
+      <div class="col-lg-12 text-center">
+        <h1 class="display-4">Kursevi</h1>
       </div>
+      <div class="col-8 offset-2 justify-content-center">
+        <div class="justify-content-center font-md my-3" id="courses-home">
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>

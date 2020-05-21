@@ -5,11 +5,14 @@
 
 .courses-menu {
   background-color: rgba($light-color, 0.5);
-  border-right: 1px solid rgba($light-gray-color, 0.2);
+  border: 2px solid red;
+  // border-right: 1px solid rgba($light-gray-color, 0.2);
   width: 350px;
   height: calc(100vh - 60px);
   padding-left: 12px;
   overflow-y: auto;
+  position: relative;
+  top: 60px;
   .course-title {
     margin: 24px 0 24px 0;
     color: $dark-color;
@@ -33,6 +36,8 @@
   width: calc(100vw - 350px);
   height: calc(100vh - 60px);
   overflow-y: auto;
+  position: relative;
+  top: 60px;
 }
 
 #course-text {
