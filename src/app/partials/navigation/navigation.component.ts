@@ -22,8 +22,8 @@ export class NavigationComponent implements OnInit {
   }
 
   scrolling = (s) => {
-    const sc = s.target.scrollingElement.scrollTop;
     if (this.route === '/home'){
+      const sc = s.target.scrollingElement.scrollTop;
       if (sc >= 50) {
         this.scroll = true;
       }
