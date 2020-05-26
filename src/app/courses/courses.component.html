@@ -3,7 +3,7 @@
     <div *ngFor="let course of courses">
       <h3 class='course-title'>{{course.title}}</h3>
       <div id='{{course.id}}' *ngFor="let lesson of course.lessons">
-        <button onclick='onLessonClick(this)' class='lesson-title'>
+        <button (click)='onLessonClick(this)' class='lesson-title data-course-id="{{course.id}}" data-lesson-id="{{lesson.id}}"'>
           {{lesson.title}}
         </button>
       </div>

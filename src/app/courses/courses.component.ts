@@ -18,4 +18,8 @@ export class CoursesComponent implements OnInit {
     });
   }
 
+  onLessonClick(button){
+    
+  }
+
 }
